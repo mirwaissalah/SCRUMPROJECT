@@ -2,10 +2,15 @@
 
 ### Members: 
 Abdul Salam Faiq, Product Owner
+
 Mirwais Jan Salah, Scrum Master
+
 Ahmad Wasim Wardak, Developer
+
 Haroon Kakar, Developer
+
 Mohammad Rasoul Sahibzadah, Developer
+
 Surya Faqirzada, Developer
 
 ### Description:
