@@ -10,4 +10,4 @@ Surya Faqirzada, Developer
 
 ### Description:
 
-The system This system would include a sign in and sign up page, adding doctors, making appointments, seeing appointments, seeing patients list, and, patient records, and etc
+This system would include a sign in and sign up page, adding doctors, making appointments, seeing appointments, seeing patients list, and, patient records, and etc
