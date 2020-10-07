@@ -12,4 +12,10 @@
 | 8    | Develop patient details control panel                        | Sprint 3 |
 | 9    | Develop CRUD patient functionality                           | Sprint 3 |
 | 10   | Develop searching functionality for the patients             | Sprint 3 |
+| 11   | Design patient visit history panel                           | Sprint 4 |
+| 12   | Develop patient visit history panel                          | Sprint 4 |
+| 13   | Design appointments schedule design                          | Sprint 5 |
+| 14   | Develop appointments schedule design                         | Sprint 5 |
+| 15   | Design patients list page connecting it with the database    | Sprint 6 |
+| 16   | Develop patients list page connecting it with the database   | Sprint 6 |
 
