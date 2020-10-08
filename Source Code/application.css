@@ -1,0 +1,20 @@
+.back{
+	-fx-background-image:url('5.png');
+	-fx-background-size: cover;
+}
+.back1{
+	-fx-background-image:url('4.jpg');
+	-fx-background-size: cover;
+}
+.new{
+	-fx-background-image:url('bg-1.jpg');
+	-fx-background-size: cover;
+}
+.new2{
+	-fx-background-image:url('v14.png');
+	-fx-background-size: cover;
+}
+.back3{
+	-fx-background-image:url('19771.jpg');
+	-fx-background-size: cover;
+}
