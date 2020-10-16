@@ -20,6 +20,6 @@ Team 2: Wasim, Rasoul
 | 12   | Develop patient visit history panel                          | Sprint 4 | Team 2      |
 | 13   | Design appointments schedule design                          | Sprint 5 | Team 1      |
 | 14   | Develop appointments schedule design                         | Sprint 5 | Team 2      |
-| 15   | Design patients list page connecting it with the database    | Sprint 6 | Team 1      |
-| 16   | Develop patients list page connecting it with the database   | Sprint 6 | Team 2      |
+| 15   | Design patients list page connecting it with the database    | Sprint 5 | Team 1      |
+| 16   | Develop patients list page connecting it with the database   | Sprint 5 | Team 2      |
 
