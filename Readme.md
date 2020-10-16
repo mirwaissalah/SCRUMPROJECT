@@ -15,4 +15,4 @@ Surya Faqirzada, Developer
 
 ### Description:
 
-This system would work for management of the hospital it will  include a sign in and sign up page, adding doctors, making appointments, seeing appointments, seeing patients list, patient visit history, patient records, and etc
+This system would work for management of the hospital it will  include a sign in and sign up page, adding doctors, making appointments, seeing appointments, seeing patients list, patient visit history, patient records, and etc. For this project Java Programming Language would be used.
