@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="617.0" prefWidth="754.0" style="-fx-background-color: black;" styleClass="backDash" stylesheets="@MainCss.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progtwofinalproject.FXMLDashController">
+   <children>
+      <VBox prefHeight="529.0" prefWidth="726.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="102.0" prefWidth="656.0">
+               <children>
+                  <Label fx:id="lblDashHos" alignment="CENTER" graphicTextGap="5.0" text="Hospital Management System " textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+                     <font>
+                        <Font name="Calibri Light" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets right="166.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="312.0" prefWidth="754.0" spacing="100.0" stylesheets="@MainCss.css">
+               <children>
+                  <JFXButton fx:id="btnDashPat" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" onAction="#DashPatSub" prefHeight="185.0" prefWidth="227.0" style="-fx-background-color: blue;" text="Patients" textAlignment="CENTER" textFill="#fcfcfc">
+                     <graphic>
+                        <ImageView fx:id="DashIconPat">
+                           <image>
+                              <Image url="@conference-128.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="DashPatRegBtn" alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" onAction="#DashPadRegSub" prefHeight="181.0" prefWidth="221.0" style="-fx-background-color: blue;" text="Patient Registration " textAlignment="CENTER" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fx:id="DashIconPatReg">
+                           <image>
+                              <Image url="@add-user-128.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="181.0" prefWidth="754.0">
+               <children>
+                  <JFXButton fx:id="DashUsersBtn" buttonType="RAISED" contentDisplay="TOP" onAction="#DashUsersSubm" prefHeight="166.0" prefWidth="223.0" style="-fx-background-color: blue;" text="Users" textFill="WHITE">
+                     <graphic>
+                        <FontAwesomeIconView fx:id="DashUsersIco" fill="WHITE" glyphName="USER" size="100" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
