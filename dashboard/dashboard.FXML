@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="750.0" stylesheets="@dashboard.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Control">
+   <children>
+      <HBox prefHeight="324.0" prefWidth="750.0" styleClass="new2" stylesheets="@application.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox layoutX="76.0" layoutY="232.0" prefHeight="272.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="179.0" prefWidth="200.0" style="-fx-background-color: blue; -fx-opacity: 0.7;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" stylesheets="@dashboard.css" text="Internal Medicine" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Cardiology" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Dental" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="275.0" layoutY="232.0" prefHeight="272.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="179.0" prefWidth="200.0" style="-fx-background-color: green; -fx-opacity: 0.7;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Physiotherapy" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Ear, Nose and Threat" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Dermatology" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="475.0" layoutY="232.0" prefHeight="272.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="179.0" prefWidth="200.0" style="-fx-background-color: gray; -fx-opacity: 0.7;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Neurology" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Orthopedics" textFill="WHITE" />
+                  <Button mnemonicParsing="false" onAction="#fun" prefHeight="92.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="Opthalmology" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
