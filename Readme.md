@@ -9,7 +9,7 @@ Ahmad Wasim Wardak, Developer
 
 Haroon Kakar, Developer
 
-Mohammad Rasoul Sahibzadah, Developer
+Mohammad Rasoul Sahibbzadah, Developer
 
 Surya Faqirzada, Developer
 
