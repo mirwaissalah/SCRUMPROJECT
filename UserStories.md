@@ -9,6 +9,5 @@
 | 7    | Registered User   | Delete a patient                                             | Their information get deleted from the database          |       | Not required |        |
 | 8    | Registered User   | See all the related department                               | To be able to navigate to any of them by clicking o them |       | Required     |        |
 | 9    | Registered User   | Edit a patient details                                       | Correct their information if anything went wrong         |       | Required     |        |
-| 10   | Registered User   | Want to see the appointment list                             | See all the appointmetns                                 |       | Required     |        |
-| 11   | Registered User   | Want to search for a patient                                 | Quickly find him                                         |       | Not required |        |
-| 12   | Registered user   | Want to see the history of a patient visiting                | To track their visitings                                 |       | Not required |        |
+| 10   | Registered User   | Want to search for a patient                                 | Quickly find him                                         |       | Not required |        |
+| 11   | Registered user   | Want to see the history of a patient visiting                | To track their visitings                                 |       | Not required |        |
